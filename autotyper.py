@@ -22,8 +22,9 @@ class AutoTyper:
     def __init__(self, root):
         self.root = root
         self.root.title("HumanTyper Pro — Hindi & English")
-        self.root.geometry("680x560")
-        self.root.resizable(False, False)
+        self.root.geometry("680x650")
+        self.root.resizable(True, True)
+        self.root.minsize(600, 600)
         self.root.configure(bg="#0f0f13")
 
         self.typing = False
